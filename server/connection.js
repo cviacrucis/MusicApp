@@ -4,7 +4,7 @@ let pool = mysql.createPool({
     host: "localhost",
     user: "codeJamAdmin",
     password: "Admin",
-    database: "codeJam",
+    database: process.env.DBNAME
     port: 8889
 })
 
